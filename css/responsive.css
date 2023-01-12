@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+  #inicio {
+    /* height: 100vh; */
+    padding: 0 20px;
+  }
+
+  #inicio .main-content h2 {
+    margin-bottom: 1rem;
+  }
+
+  #solucoes .main-content .flex-row {
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  #a-empresa .flex-row {
+    flex-direction: column;
+  }
+
+  #a-empresa .flex-row .right-side {
+    padding: 0 50px;
+  }
+  #a-empresa .flex-row .right-side h2 {
+    text-align: center;
+  }
+
+  #contato .flex-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contato .flex-row .contato-right {
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  #solucoes .main-content .flex-row {
+    width: 100vw;
+  }
+}
