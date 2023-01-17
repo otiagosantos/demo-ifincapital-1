@@ -3,8 +3,8 @@ let menuToggle = document.querySelector('.menu-toggle');
 
 let isMenuToggleActive = false;
 
-function toggleMenu() {
-  isMenuToggleActive = !isMenuToggleActive;
+function toggleMenu(toggle = null) {
+  isMenuToggleActive = toggle !== null ? toggle : !isMenuToggleActive;
   
   navRow.classList.toggle('on', isMenuToggleActive);
   
@@ -16,5 +16,5 @@ menuToggle.addEventListener('click', toggleMenu)
 let menuItens = document.querySelectorAll('.nav-container nav ul li')
 
 menuItens.forEach(item => {
-  item.addEventListener('click', toggleMenu)
+  item.addEventListener('click', () => toggleMenu(false))
 })
