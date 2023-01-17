@@ -1,0 +1,46 @@
+header {
+  position: relative;
+  z-index: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main.main-content {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contato--documentos h2 {
+  font-size: xx-large;
+  margin: 2rem 0;
+}
+
+.btn-container {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px; */
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.btn-container .btn {
+  background-color: #151515;
+  margin: 10px;
+  font-size: small;
+  width: 30%;
+  min-width: 300px;
+}
+
+.btn:hover {
+  color: var(--yellow-1);
+}
