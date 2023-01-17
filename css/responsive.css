@@ -1,7 +1,25 @@
+.menu-toggle {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  margin-right: 20px;
+  top: 25px;
+  right: 25px;
+}
+
+.nav-row.on .menu-toggle {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  z-index: 11;
+}
+
+
+
 @media (max-width: 1000px) {
   #inicio {
     /* height: 100vh; */
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
 
   #inicio .main-content h2 {
@@ -36,6 +54,52 @@
 }
 
 @media (max-width: 720px) {
+
+  .telefone-info {
+    margin: auto;
+  }
+
+  .one,
+  .two,
+  .three {
+      background-color: #fff;
+      height: 5px;
+      width: 100%;
+      margin: 6px auto;
+
+      transition-duration: 0.3s;
+  }
+
+  .nav-row.on .nav-container{
+    position: absolute;
+    top:0;
+    left:0;
+    
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--gray-2);
+    
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .nav-row.on nav ul{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .nav-row.on nav ul li{
+    margin: 2rem;
+  }
 
   #solucoes .main-content .flex-row {
     width: 100vw;

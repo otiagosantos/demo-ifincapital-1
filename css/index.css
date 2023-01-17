@@ -9,7 +9,6 @@ header .telefone-info-container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1000px;
   color: var(--yellow-1);
 }
 
@@ -69,14 +68,13 @@ header .telefone-info svg {
 }
 
 #inicio .main-content {
-  /* margin:  0; */
+  margin:  0;
 }
 
 #inicio .main-content h2 {
   font-size: 2.2rem;
   margin-bottom: 4rem;
   text-shadow: #00000070 2px 2px 5px;
-
 }
 
 #inicio .main-content p {

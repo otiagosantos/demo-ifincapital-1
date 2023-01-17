@@ -38,11 +38,13 @@ span.bold {
 }
 
 .main-content {
+  width: 95%;
   max-width: 1000px;
   height: fit-content;
 }
 
 .large-content {
+  width: 100%;
   max-width: 1250px;
 }
 
