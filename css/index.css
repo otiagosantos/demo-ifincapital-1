@@ -71,6 +71,11 @@ header .telefone-info svg {
   margin:  0;
 }
 
+#inicio .main-content h1 {
+  opacity: 0;
+  height: 90px;
+}
+
 #inicio .main-content h2 {
   font-size: 2.2rem;
   margin-bottom: 4rem;
