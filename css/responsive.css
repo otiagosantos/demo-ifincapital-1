@@ -8,7 +8,7 @@
 }
 
 .nav-row.on .menu-toggle {
-  position: absolute;
+  position: fixed;
   right: 25px;
   top: 25px;
   z-index: 11;
