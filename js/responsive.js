@@ -3,15 +3,16 @@ let menuToggle = document.querySelector('.menu-toggle');
 
 let isMenuToggleActive = false;
 
-function toggleMenu(toggle = null) {
-  isMenuToggleActive = toggle !== null ? toggle : !isMenuToggleActive;
+function toggleMenu(toggle) {
+  isMenuToggleActive = toggle;
+  
   
   navRow.classList.toggle('on', isMenuToggleActive);
   
   document.body.style.overflow = isMenuToggleActive ? "hidden" : "initial";
 }
 
-menuToggle.addEventListener('click', toggleMenu)
+menuToggle.addEventListener('click', () => toggleMenu(!isMenuToggleActive))
 
 let menuItens = document.querySelectorAll('.nav-container nav ul li')
 
