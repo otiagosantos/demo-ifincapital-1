@@ -65,6 +65,14 @@
 
 @media (max-width: 720px) {
 
+  #inicio .main-content h2 {
+    width: 100%;
+  }
+
+  #inicio .main-content p {
+    width: 100%;
+  }
+
   .telefone-info {
     margin: auto;
   }
@@ -138,9 +146,14 @@
     width: 100vw;
   }
 
-  @media (max-width: 500px) {
-    #inicio .main-content h2 {
-      font-size: x-large;
-    }
+  .form-container {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  #inicio .main-content h2 {
+    font-size: x-large;
   }
 }
