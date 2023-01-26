@@ -16,6 +16,12 @@ header .telefone-info svg {
   transform: translateY(25%);
 }
 
+header .telefone-info p {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
 .nav-row {
   display: flex;
   justify-content: space-between;
