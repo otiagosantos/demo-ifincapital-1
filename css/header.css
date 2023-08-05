@@ -1,0 +1,50 @@
+header {
+  position: absolute;
+  background-color: #00000090;
+  width: 100%;
+}
+
+header .telefone-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--yellow-1);
+}
+
+header .telefone-info svg {
+  transform: translateY(25%);
+}
+
+header .telefone-info p {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-container ul li {
+}
+
+.nav-container ul li a {
+  color: var(--white-1);
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: lighter;
+}
+
+.nav-container ul li a:hover {
+  color: var(--yellow-1);
+}

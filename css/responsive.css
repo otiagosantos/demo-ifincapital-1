@@ -1,11 +1,35 @@
+.menu-toggle {
+  position: fixed;
+  width: 40px;
+  height: 30px;
+  margin-right: 20px;
+  top: 25px;
+  right: 25px;
+}
+
+.nav-row.on .menu-toggle {
+  position: fixed;
+  right: 25px;
+  top: 25px;
+  z-index: 11;
+}
+
+
+
 @media (max-width: 1000px) {
-  #inicio {
-    /* height: 100vh; */
-    padding: 0 20px;
+  .large-content {
+    width: 95%;
+    max-width: 1000px;
   }
 
   #inicio .main-content h2 {
     margin-bottom: 1rem;
+  }
+
+  #inicio::before {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 
   #solucoes .main-content .flex-row {
@@ -15,6 +39,10 @@
 
   #a-empresa .flex-row {
     flex-direction: column;
+  }
+
+  #a-empresa .left-side, #a-empresa .left-side img {
+    width: 100%;
   }
 
   #a-empresa .flex-row .right-side {
@@ -37,7 +65,95 @@
 
 @media (max-width: 720px) {
 
+  #inicio .main-content h2 {
+    width: 100%;
+  }
+
+  #inicio .main-content p {
+    width: 100%;
+  }
+
+  .telefone-info {
+    margin: auto;
+  }
+
+  .one,
+  .two,
+  .three {
+      background-color: #fff;
+      height: 5px;
+      width: 100%;
+      margin: 6px auto;
+
+      transition-duration: 0.3s;
+  }
+
+  .nav-row.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 8px);
+  }
+
+  .nav-row.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .nav-row.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(7px, -9px);
+  }
+
+  .nav-row.on .nav-container{
+    position: fixed;
+    top:0;
+    left:0;
+    
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--gray-2);
+    
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .nav-row.on nav ul{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .nav-row.on nav ul li{
+    margin: 2rem;
+  }
+
+  #inicio {
+    height: 95vh;
+  }
+
+  #inicio::before {
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
   #solucoes .main-content .flex-row {
     width: 100vw;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  #inicio .main-content h2 {
+    font-size: x-large;
   }
 }
