@@ -1,235 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
 
   <link rel="stylesheet" href="css/globals.css">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/responsive.css">
+
+  <title>iFin Capital</title>
 </head>
 
 <body>
-  <header>
-    <div class="row">
-      <div class="telefone-info-container main-content">
-        <div></div>
-        <div class="telefone-info">
-          <!-- put phone icon here -->
-          <svg width="15" fill="#d1bb63" preserveAspectRatio="xMidYMid meet" data-bbox="1.489 -0.074 196.972 199.974"
-            xmlns="http://www.w3.org/2000/svg" viewBox="1.489 -0.074 196.972 199.974" role="presentation"
-            aria-hidden="true">
-            <g>
-              <path
-                d="M183 155.5c-17.5-16.1-37.4-27.3-43.1-30.3h-.1c-3.2-1.6-7.1-1-9.6 1.5l-14.4 13.7c-6.4-1.6-23.4-7.4-39-25.7C61.1 96.5 58 78.9 57.4 72.3l15.7-12c3-2.2 4.2-6.2 2.9-9.5-.9-2.6-9-25.9-23.3-47.1C51.4 1.8 49.4.5 47.3.1c-2.3-.5-4.9.1-6.6 1.5-2.9 2.2-6 4.6-9 7.2-15.3 13-26.3 26.8-28.4 29.4-1.3 1.6-1.9 3.6-1.8 5.6.3 4.9 3.6 49.2 44.6 97s84.3 57.9 89.1 58.9c.6.1 1.2.2 1.8.2 1.4 0 2.8-.4 4.1-1.1 2.9-1.6 18.3-10.4 33.5-23.4 3-2.6 5.9-5.2 8.6-7.8 1.6-1.7 2.5-3.9 2.5-6.2-.1-2.2-1.1-4.4-2.7-5.9zM45.8 63.3c-1.7 1.3-2.7 3.3-2.8 5.5 0 2.7 0 28.4 23 55.1 23.3 27.2 50 31 51.1 31.1 2.1.3 4.3-.4 5.8-1.9l14-13.3c6.4 3.6 19.4 11.5 31.8 22.1-1 .9-2.1 1.9-3.3 2.9-12 10.2-23.9 17.6-29.3 20.7-9-2.3-44.8-13.6-79.3-53.8-34.5-40.2-40.1-77.2-41-86.4 3.4-4.2 12.9-15.3 25-25.6 1.1-1 2.3-1.9 3.4-2.8 8.5 13.9 14.3 27.9 16.9 34.7L45.8 63.3z">
-              </path>
-              <path
-                d="M172.9 34.8C155 14.8 130.4 3 103.6 1.6c-4-.2-7.3 2.8-7.5 6.7-.1 1.9.5 3.7 1.8 5.1 1.3 1.4 3 2.2 4.9 2.4 23 1.3 44.1 11.4 59.5 28.5 15.4 17.1 23.1 39.2 21.8 62.1-.1 1.9.5 3.7 1.8 5.1 1.3 1.4 3 2.3 5 2.4h.3c3.8 0 6.9-2.9 7.1-6.7 1.5-26.8-7.5-52.5-25.4-72.4z">
-              </path>
-              <path
-                d="M105.7 38.6c-1.9-.1-3.7.5-5.1 1.8-1.4 1.3-2.3 3-2.4 4.9-.2 3.9 2.8 7.3 6.7 7.5 11.9.7 22.8 5.9 30.7 14.7 7.9 8.8 11.9 20.2 11.3 32.1-.1 1.9.5 3.7 1.8 5.1 1.3 1.4 3 2.2 4.9 2.3h.4c3.8 0 6.9-2.9 7.1-6.7.9-15.6-4.4-30.7-14.9-42.3-10.5-11.6-24.8-18.5-40.5-19.4z">
-              </path>
-            </g>
-          </svg>
 
+  <div class="telefone">
+    <div class="container main-content">
+      <div></div>
 
-          <span>(51) 9 9962 1849</span>
-        </div>
+      <div class="telefone-container">
+        <svg width="15" fill="#d1bb63" preserveAspectRatio="xMidYMid meet" data-bbox="1.489 -0.074 196.972 199.974"
+          xmlns="http://www.w3.org/2000/svg" viewBox="1.489 -0.074 196.972 199.974" role="presentation" aria-hidden="true">
+          <g>
+            <path
+              d="M183 155.5c-17.5-16.1-37.4-27.3-43.1-30.3h-.1c-3.2-1.6-7.1-1-9.6 1.5l-14.4 13.7c-6.4-1.6-23.4-7.4-39-25.7C61.1 96.5 58 78.9 57.4 72.3l15.7-12c3-2.2 4.2-6.2 2.9-9.5-.9-2.6-9-25.9-23.3-47.1C51.4 1.8 49.4.5 47.3.1c-2.3-.5-4.9.1-6.6 1.5-2.9 2.2-6 4.6-9 7.2-15.3 13-26.3 26.8-28.4 29.4-1.3 1.6-1.9 3.6-1.8 5.6.3 4.9 3.6 49.2 44.6 97s84.3 57.9 89.1 58.9c.6.1 1.2.2 1.8.2 1.4 0 2.8-.4 4.1-1.1 2.9-1.6 18.3-10.4 33.5-23.4 3-2.6 5.9-5.2 8.6-7.8 1.6-1.7 2.5-3.9 2.5-6.2-.1-2.2-1.1-4.4-2.7-5.9zM45.8 63.3c-1.7 1.3-2.7 3.3-2.8 5.5 0 2.7 0 28.4 23 55.1 23.3 27.2 50 31 51.1 31.1 2.1.3 4.3-.4 5.8-1.9l14-13.3c6.4 3.6 19.4 11.5 31.8 22.1-1 .9-2.1 1.9-3.3 2.9-12 10.2-23.9 17.6-29.3 20.7-9-2.3-44.8-13.6-79.3-53.8-34.5-40.2-40.1-77.2-41-86.4 3.4-4.2 12.9-15.3 25-25.6 1.1-1 2.3-1.9 3.4-2.8 8.5 13.9 14.3 27.9 16.9 34.7L45.8 63.3z">
+            </path>
+            <path
+              d="M172.9 34.8C155 14.8 130.4 3 103.6 1.6c-4-.2-7.3 2.8-7.5 6.7-.1 1.9.5 3.7 1.8 5.1 1.3 1.4 3 2.2 4.9 2.4 23 1.3 44.1 11.4 59.5 28.5 15.4 17.1 23.1 39.2 21.8 62.1-.1 1.9.5 3.7 1.8 5.1 1.3 1.4 3 2.3 5 2.4h.3c3.8 0 6.9-2.9 7.1-6.7 1.5-26.8-7.5-52.5-25.4-72.4z">
+            </path>
+            <path
+              d="M105.7 38.6c-1.9-.1-3.7.5-5.1 1.8-1.4 1.3-2.3 3-2.4 4.9-.2 3.9 2.8 7.3 6.7 7.5 11.9.7 22.8 5.9 30.7 14.7 7.9 8.8 11.9 20.2 11.3 32.1-.1 1.9.5 3.7 1.8 5.1 1.3 1.4 3 2.2 4.9 2.3h.4c3.8 0 6.9-2.9 7.1-6.7.9-15.6-4.4-30.7-14.9-42.3-10.5-11.6-24.8-18.5-40.5-19.4z">
+            </path>
+          </g>
+        </svg>
+        <span>(51) 9 9962 1849</span>
       </div>
     </div>
-    <div class="row">
-      <div class="nav-row main-content">
-        <div id="logo-container">
-          <!-- put iFin C. Logo here -->
-          <img src="assets/ifin-logo.webp" alt="">
-        </div>
-        <div class="nav-container">
-          <nav>
-            <ul>
-              <li>
-                <a href="#inicio">INÍCIO</a>
-              </li>
-              <li>
-                <a href="#a-empresa">A EMPRESA</a>
-              </li>
-              <li>
-                <a href="#solucoes">SOLUÇÕES</a>
-              </li>
-              <li>
-                <a href="#contato">CONTATO</a>
-              </li>
-              <li>
-                <a href="compliance.html">COMPLIANCE</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+  </div>
+
+  <header>
+    <div class="container main-content">
+      <img src="assets/ifin-logo.webp" alt="Logo iFin.">
+
+      <nav>
+        <ul>
+          <li><a href="#inicio">INÍCIO</a></li>
+          <li><a href="#a-empresa">A EMPRESA</a></li>
+          <li><a href="#solucoes">SOLUÇÕES</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+          <li><a href="#compliance">COMPLIANCE</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <section id="inicio" class="row">
-    <div class="inicio-bg"></div>
-
-    <div class="main-content">
-      <h1 hidden>iFin Capital</h1>
-      <h2>As estratégias mais inteligentes, os melhores<br> produtos e uma relação transparente.<br> Tudo o que seu
-        patrimônio
-        merece.</h2>
-      <p><span class="bold">Você e sua família são únicos</span>. E a única forma de seu patrimônio estar protegido é
-        através de auxílio dos
-        profissionais mais qualificados e experientes, soluções de excelência e uma relação totalmente isenta de
-        conflitos de interesses.</p>
-      <a href="#solucoes" class="btn btn-primary">SAIBA MAIS</a>
-    </div>
-
-    <!-- put banner background here -->
-    <!-- <img id="inicio--img" src="assets/inicio-bg.webp" alt=""> -->
-  </section>
-
-  <section id="a-empresa" class="row bg-primary">
-    <div class="flex-row large-content">
-      <div class="left-side">
-        <img src="assets/a-empresa-img.webp" alt="">
-      </div>
-      <div class="right-side">
-        <h2>Uma empresa especializada em levar seus investimentos para um outro nível</h2>
-        <p>Nossa estrutura de Multi-Family Office foi desenhada para agregar de forma totalmente personalizada na
-          construção, multiplicação, preservação e sucessão do patrimônio das famílias.</p>
-      </div>
+  <section id="inicio">
+    <img src="assets/inicio-bg.webp" alt="Imagem de fundo de uma mesa de reuniões.">
+    <div class="container main-content">
+      <h2>As estratégias mais inteligentes, os melhores produtos e uma relação transparente.
+        Tudo o que seu patrimônio merece.</h2>
+      <p>
+        Você e sua família são únicos. E a única forma de seu patrimônio estar protegido é através de auxílio dos profissionais mais qualificados e experientes, soluções de excelência e uma relação totalmente isenta de conflitos de interesses.
+      </p>
     </div>
   </section>
 
-  <section id="solucoes" class="row">
-    <div class="main-content">
-      <h2 class="section-title">SOLUÇÕES</h2>
+  <main></main>
 
-      <div class="flex-row">
+  <section></section>
 
-        <div id="consultoria-de-investimentos--card" class="card bg-yellow-5">
-          <svg fill="#FFFFFF" preserveAspectRatio="xMidYMid meet" data-bbox="20 38 160 124" viewBox="20 38 160 124"
-            height="56" width="72" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation"
-            aria-hidden="true" aria-labelledby="svgcid--6iwjaznqsnr8">
-            <title id="svgcid--6iwjaznqsnr8"></title>
-            <g>
-              <path
-                d="M53.654 162H25.989A5.989 5.989 0 0 1 20 156.011v-45.346a5.989 5.989 0 0 1 5.989-5.989h27.664a5.989 5.989 0 0 1 5.989 5.989v45.346A5.988 5.988 0 0 1 53.654 162z">
-              </path>
-              <path
-                d="M113.832 162H86.168a5.989 5.989 0 0 1-5.989-5.989V78.267a5.989 5.989 0 0 1 5.989-5.989h27.664a5.989 5.989 0 0 1 5.989 5.989v77.744a5.989 5.989 0 0 1-5.989 5.989z">
-              </path>
-              <path
-                d="M174.011 162h-27.664a5.989 5.989 0 0 1-5.989-5.989V43.989A5.989 5.989 0 0 1 146.347 38h27.664A5.989 5.989 0 0 1 180 43.989v112.022a5.989 5.989 0 0 1-5.989 5.989z">
-              </path>
-            </g>
-          </svg>
+  <section></section>
 
-          <h3>Consultoria de Investimentos</h3>
-          <p>De forma isenta, imparcial e sem conflitos de interesses, trabalhamos exclusivamente pelas famílias e por
-            suas necessidades particulares, buscando as melhores alternativas em todas as instituições financeiras.</p>
-        </div>
+  <footer></footer>
 
-        <div id="planejamento-patrimonial--card" class="card bg-yellow-4">
-          <img src="assets/planejamento-patrimonial-icon.webp" alt="">
-          <h3>Planejamento Patrimonial</h3>
-          <p>Através do planejamento de estruturas patrimoniais locais e offshore, ajudamos a proteger, preservar e
-            perpetuar o patrimônio dos clientes, trazendo as melhores soluções de planejamento sucessório, eficiência
-            tributária, e governança familiar.</p>
-        </div>
-
-        <div id="consolidacao-de-ativos--card" class="card bg-yellow-3">
-          <img src="assets/consolidacao-de-ativos-icon.webp" alt="">
-          <h3>Consolidação de Ativos</h3>
-          <p>Seu patrimônio é um só, e sua estratégia precisa ser visualizada e pensada dessa maneira. Através da
-            consolidação de todas as suas posições, sua carteira pode ser vista e analisada de forma global, otimizando
-            ainda mais as estratégias de investimentos.</p>
-        </div>
-
-        <div id="mentoria-personalizada--card" class="card bg-yellow-2">
-
-          <svg fill="#FFFFFF" preserveAspectRatio="xMidYMid meet" data-bbox="0 32.981 200 134.019"
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 32.981 200 134.019" role="presentation" aria-hidden="true"
-            width="100">
-            <g>
-              <path
-                d="M200 148.1V167H0v-17.9c.5-5 3.6-9.4 8.1-11.5 3.8-1.9 7.8-3.3 11.9-4.4 6.4-1.7 12.7-3.9 18.8-6.6l.4-.3c1.3-.8 2-2.2 2-3.8v-11.4c-20.1.2-26-8.4-26-8.4s11.5-.2 10.8-30.5c-.7-30.3 13.2-35.3 18.4-37.3 15.1-5.8 22.7 3.4 22.7 3.4C84.9 36.7 89.6 56 87.5 77.8c-2.1 21.8 9.8 25.3 9.8 25.3-8.3 8.4-25.6 7.9-25.6 7.9v11.4c0 1.5.8 2.9 2 3.8l.5.3c2.4 1.2 4.9 2.2 7.4 3.1 9-6.4 18.5-6.5 28.4-11.5.4-.2.7-.6.7-1.1v-13c-1.9-3.2-3.2-12.4-3.8-16.1-1.5-.1-3.4 3.4-5.4-3.9-2.8-10 .2-10.6 2.7-10.3-.5-1.3-.8-2.7-1.1-4.1-1-4.4-1-8 0-12.3 1.3-5.1 3.9-9.8 7.7-13.5 2.1-2.2 4.5-4.2 7.1-5.9 2.1-1.5 4.4-2.7 6.9-3.5 2-.7 4.1-1.1 6.3-1.2 5.5-.6 11 .6 15.8 3.3 3.2 1.6 5.8 4.1 7.7 7.1 0 0 12.7 0 8.4 25.9-.3 1.4-.6 2.8-1.1 4.1 2.5-.2 5.5.3 2.7 10.3-2 7.3-4 4-5.4 4-.6 3.6-1.9 12.7-3.8 15.9V117c0 .5.3.9.7 1.1 14 7 27.1 9.9 39.3 19.7 2.9 2.5 4.6 6.3 4.6 10.3z">
-              </path>
-            </g>
-            </svghei>
-
-            <h3>Mentoria Personalizada</h3>
-            <p>Baseada na metologia de Planejamento Financeiro com padrão internacional CFP®, o Programa de Mentoria
-              Financeira consiste na revisão e orientação de toda sua vida financeira, através de uma visão 360º e um
-              plano de ação multidisciplinar.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- put 'solucoes' img background here -->
-    <!-- <img src="" alt=""> -->
-  </section>
-
-  <section id="contato" class="row bg-primary">
-    <div class="main-content">
-      <h2 class="section-title">CONTATO</h2>
-
-      <div class="flex-row">
-        <div class="flex-column contato-left">
-          <div id="contato--endereco">
-            <h3>Endereço:</h3>
-            <p>Rua Inácio Vasconcelos, 59 - Boa Vista</p>
-            <p>Porto Alegre - RS, 90480-160</p>
-          </div>
-
-          <div id="contato--telefone">
-            <h3>Telefone:</h3>
-            <p>(51) 9 9962 1849</p>
-          </div>
-
-          <div id="contato--documentos">
-            <h3>Documentos:</h3>
-
-            <a href="compliance.html" class="btn btn-secondary">Formulário de Referência</a>
-            <a href="compliance.html" class="btn btn-secondary">Código de Ética e Conduta</a>
-            <a href="compliance.html" class="btn btn-secondary">Política de Suitability</a>
-            <a href="compliance.html" class="btn btn-secondary">Manual de Compliance</a>
-            <a href="compliance.html" class="btn btn-secondary">Política de Privacidade</a>
-          </div>
-        </div>
-        <div class="flex-column contato-right">
-          <h3>Fale Conosco:</h3>
-          <p>Preencha o formulário abaixo e um de nossos consultores entrará em contato.</p>
-
-          <div class="form-container">
-            <form action="">
-              <input type="text" name="nome" id="nome" placeholder="Nome" />
-              <input type="email" name="email" id="email" placeholder="Email" />
-              <input type="text" name="telefone" id="telefone" placeholder="Telefone" />
-              <textarea name="message" id="message" cols="30" rows="5"
-                placeholder="Digite sua mensagem aqui..."></textarea>
-
-              <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="map" class="row">
-    <!-- put interactive google map here -->
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13818.071094372579!2d-51.1824487!3d-30.0220001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ee607aabeb14da!2siFin!5e0!3m2!1spt-BR!2sbr!4v1673460218129!5m2!1spt-BR!2sbr"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-
-  <footer>
-    © 2023 por ifin capital. 
-  </footer>
 </body>
 
 </html>

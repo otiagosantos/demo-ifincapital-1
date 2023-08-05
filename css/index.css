@@ -1,232 +1,56 @@
-header {
-  position: absolute;
-  background-color: #00000090;
-  width: 100%;
+.telefone {
+  background-color: #2f2f30B0;
 }
 
-header .telefone-info-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 1000px;
-  color: var(--yellow-1);
-}
-
-header .telefone-info svg {
-  transform: translateY(25%);
-}
-
-.nav-row {
+.telefone .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  margin: auto;
 }
 
-.nav-container ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nav-container ul li {
-}
-
-.nav-container ul li a {
-  color: var(--white-1);
-  text-decoration: none;
-  padding: 1rem;
-  font-weight: lighter;
-}
-
-.nav-container ul li a:hover {
-  color: var(--yellow-1);
-}
-
-#inicio {
-  height: 650px;
-}
-
-#inicio::before {
-  content: "";
-  background-image: url(../assets/inicio-bg.webp);
-  /* height: 650px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed; */
-  
-
-  background-size: cover;
-  display: block;
-  filter: brightness(65%);
-  height: 650px;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-#inicio .main-content {
-  /* margin:  0; */
-}
-
-#inicio .main-content h2 {
-  font-size: 2.2rem;
-  margin-bottom: 4rem;
-  text-shadow: #00000070 2px 2px 5px;
-
-}
-
-#inicio .main-content p {
-  width: 50%;
-  text-shadow: #00000070 2px 2px 5px;
-}
-
-#inicio .main-content .bold {
-  font-weight: 400;
-}
-
-#inicio .main-content a {
-  position: relative;
-  top: 50px;
-}
-
-#a-empresa .flex-row {
-  justify-content: center;
-  align-items: center;
-
-  margin: 50px 0;
-}
-
-#a-empresa .flex-row .right-side {
-  padding: 0 100px 0 50px;
-}
-
-#a-empresa .flex-row .right-side h2 {
-  font-size: xx-large;
-  color: var(--white-2);
-
-  margin-bottom: 4rem;
-}
-
-#solucoes {
-  min-height: 750px;
-}
-
-#solucoes::before {
-  content: "";
-  background-image: url(../assets/solucoes-bg.webp);
-  filter: brightness(65%);
-  background-size: cover;
-  display: block;
-  height: 750px;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-#solucoes .main-content, #contato .main-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#solucoes .main-content h2, #contato .main-content h2 {
-  font-size: xx-large;
-}
-
-#contato .main-content {
-  padding: 50px 0;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 15px;
-}
-
-.card svg {
-  min-height: 100px;
-}
-
-.card img {
-  width: 100px;
-}
-
-.card h3 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.card p {
-  text-align: center;
-}
-
-#contato h3{
-  color: var(--yellow-1)
-}
-
-#contato .flex-row {
-  justify-content: space-between;
-}
-
-#contato .flex-column {
-  text-align: center;
-}
-
-#contato .flex-column div {
-  margin: 20px 0;
-}
-
-.contato-left {
-  justify-content: center;
-  align-items: center;
-}
-
-.contato-right {
-  max-width: 50%;
-}
-
-#contato--documentos a{
-  display: flex;
-  flex-direction: column;
+.telefone .telefone-container {
   padding: 5px 15px;
-  min-width: 237px;
+}
+
+.telefone svg {
+  transform: translateY(30%);
+}
+
+.telefone span {
   font-size: 0.9rem;
-  font-weight: lighter;
+  color: var(--yellow-1);
 }
 
-.form-container form {
+header {
+  /* width: 100%; */
+  background-color: #2f2f3090;
+}
+
+header .container {
   display: flex;
-  flex-direction: column;
-  width: 350px;
-  padding: 10px;
-  background-color: var(--gray-1);
-  border: none;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: auto;
 }
 
-.form-container form input, .form-container form textarea {
-  border: none;
-  padding: 5px 20px;
-  margin: 3px;
-  font-size: 0.8rem;
-  font-family: Poppins;
+header .container nav ul {
+  
 }
 
-#map {
-  width: 100%;
+header .container nav ul li {
+  display: inline-block;  
 }
 
-#map iframe {
-  width: 100%;
+header .container nav ul li a {
+  color: var(----white-1);
+  padding: 5px 15px;
+  transition: 0.3s ease-in;
 }
 
-footer {
-  padding: 10px 0;
-  text-align: center;
+header .container nav ul li a:hover {
+  color: var(--yellow-1);
+  transition: 0.3s ease-in;
 }
+
+#inicio

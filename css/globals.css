@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,105 +17,25 @@
   --gray-2: #2f2f30;
 
   --white-1: #FFFFFF;
-  --white-2: rgb(240, 231, 198);
+  --white-2: #f0e7c6;
   
   --black-1: #000000;
 }
 
 body {
   width: 100vw;
-  background-color: var(--gray-2);
-  color: var(--white-1);
-  font-family: Poppins; /* wfont_186fbd_f3a5d63e3733490d968b4de98aa7ea62, wf_f3a5d63e3733490d968b4de98, orig_gilroy_extrabold */  
+  min-height: 100vw;
+  font-family: Poppins, sans-serif;
+  /* background-color: var(--gray-2); */
+  color: var(--white-1)
 }
 
-p {
-  font-size: 0.9rem;
-  font-weight: lighter;
-}
-
-span.bold {
-  font-weight: bold;
+a {
+  color: var(--yellow-1);
+  text-decoration: none;
 }
 
 .main-content {
+  width: 95%;
   max-width: 1000px;
-  height: fit-content;
-}
-
-.large-content {
-  max-width: 1250px;
-}
-
-.row {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn {
-  text-decoration: none;
-  padding: 0.9rem 2rem;
-  border: 0;
-}
-
-.btn-primary {
-  background-color: var(--yellow-1);
-  color: var(--white-1);
-  transition: 0.1s linear;
-}
-
-.btn-primary:hover {
-  background-color: var(--yellow-2);
-  transition: 0.1s linear;
-}
-
-.btn-secondary {
-  color: var(--white-1);
-}
-
-.btn-secondary:hover {
-  color: var(--black-1);
-  background-color: var(--white-1);
-}
-
-.bg-yellow-1 {
-  background-color: var(--yellow-1);
-}
-
-.bg-yellow-2 {
-  background-color: var(--yellow-2);
-}
-
-.bg-yellow-3 {
-  background-color: var(--yellow-3);
-}
-
-.bg-yellow-4 {
-  background-color: var(--yellow-4);
-}
-
-.bg-yellow-5 {
-  background-color: var(--yellow-5);
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-wrap {
-  /* flex-wrap: wrap; */
-}
-
-.section-title {
-  border-bottom: 10px solid var(--yellow-1);
-  margin-bottom: 4rem;
 }
